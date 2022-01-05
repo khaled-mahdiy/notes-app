@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "khaled", "degrees": [50, 20, 30], "total": 100 },
+  { "id": 2, "name": "khaledmahdy", "degrees": [50, 10, 30], "total": 90 },
+  { "id": 3, "name": "khaledabdelrazek", "degrees": [40, 20, 30], "total": 90 },
+  { "id": 4, "name": "ahmed", "degrees": [50, 20, 40], "total": 110 }
+]
