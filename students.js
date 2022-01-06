@@ -5,14 +5,14 @@ const addStudent = (id,name,degrees)=>{
     const duplicaetID = students.filter((std)=>{
         return std.id === id
     })
-    console.log(duplicaetID) 
+    // console.log(duplicaetID) 
     var sum =0;
     degrees.forEach((deg)=>{
         sum+=deg;
     })
-    console.log(sum)
+    // console.log(sum)
     if(duplicaetID.length ==0){
-        console.log(duplicaetID)
+        // console.log(duplicaetID)
             students.push({
                 id,
                 name,
