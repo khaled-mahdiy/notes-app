@@ -18,6 +18,7 @@ yargs.command({
         },
         degrees:{
             describe:'this is degrees in add command',
+            demandOption:true,
             type: 'array'
         },
     },

@@ -7,10 +7,15 @@ const addStudent = (id,name,degrees)=>{
     })
     // console.log(duplicaetID) 
     var sum =0;
+    // const numbers = degrees.split(',')
     degrees.forEach((deg)=>{
-        sum+=deg;
+        const res = deg.split(',')
+        res.forEach((el)=>{
+            sum+=parseInt(el)
+        });
     })
-    // console.log(sum)
+    console.log(sum)
+    // console.log(numbers)
     if(duplicaetID.length ==0){
         // console.log(duplicaetID)
             students.push({
